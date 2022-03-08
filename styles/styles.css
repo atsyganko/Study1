@@ -1,0 +1,24 @@
+.Navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: bisque;;
+}
+.Navigation__link{
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(54, 85, 85);
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: bisque;;
+}
+.Navigation__link:hover{
+    color: rgb(0, 0, 0);
+    background-color: azure;
+    transform: rotate(4deg);
+
+}
